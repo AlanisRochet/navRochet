@@ -1,0 +1,26 @@
+<h1>Taza Taza</h1>;
+<h2>¡Llevate una a tu casa!</h2>;
+function NavBar() {
+  return (
+    <nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Inicio</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Nuestras tazas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Arma tu taza</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  );
+}
+
+export default NavBar;
