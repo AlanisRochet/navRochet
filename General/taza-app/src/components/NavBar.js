@@ -1,5 +1,3 @@
-<h1>Taza Taza</h1>;
-<h2>¡Llevate una a tu casa!</h2>;
 function NavBar() {
   return (
     <nav class="navbar navbar-expand-lg bg-light">
